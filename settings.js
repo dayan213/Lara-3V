@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KUwFVRYD#oQUHeEU5rzGNiMAaHcSiHIwbK6vfqIx6qDvLEub8ow4", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "iVA0CYJK#eMRk3vKO2uF4Oa54PBFMQ707G-oqxqL7IFCB4X_GVPg", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
-DEV: process.env.DEV || "94779062397",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94760765298",
+DEV: process.env.DEV || "94760765298",
 LANG: process.env.LANG || "EN", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -27,7 +27,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",   
 ANTI_BOT: process.env.ANTI_BOT || "false",
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 READ_CMD: process.env.READ_CMD || "true",
